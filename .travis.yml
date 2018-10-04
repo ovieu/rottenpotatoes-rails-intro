@@ -1,0 +1,7 @@
+language: ruby
+cache: bundler
+bundler_args: --without production
+rvm:
+  - 2.2
+  - jruby
+  - 2.0.0-p247

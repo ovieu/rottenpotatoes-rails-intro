@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+# update ruby version
 ruby '2.3.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

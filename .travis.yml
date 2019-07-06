@@ -4,8 +4,6 @@ services: postgresql
 bundler_args: --without production
 rvm:
   - 2.3.0
-  - jruby
-  - 2.0.0-p247
   
   before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
